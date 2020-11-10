@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import Chronometer from "./components/Chronometer"
+import { createGlobalStyle } from "styled-components"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: #1c1c1c;
+    color: purple;
+    text-align: center;
+  }
+`
+
+class App extends Component {
+  render() {
+    return(
+      <>
+        <GlobalStyle />
+          <h1>Chronometer</h1>
+        <Chronometer />
+      </>
+    )
+  }
 }
 
 export default App;
