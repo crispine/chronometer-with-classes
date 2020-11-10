@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Button from "./Button"
 import List from "./List"
 import { generate as id } from "shortid"
-dads
 
 class Chronometer extends Component {
 
