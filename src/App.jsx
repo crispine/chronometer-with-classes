@@ -15,7 +15,7 @@ class App extends Component {
     return(
       <>
         <GlobalStyle />
-          <h1>Chronometer</h1>
+        <h1>Chronometer</h1>
         <Chronometer />
       </>
     )
