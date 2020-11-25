@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Chronometer is a web app done with React classes. You can use this Chronometer to time anything that you want. It has a button to stop the time. It has also a button that show your timestamps. Finally, the reset button erase the timestamps and the current time.
+
 ## Available Scripts
 
 In the project directory, you can run:
